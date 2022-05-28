@@ -1,13 +1,13 @@
 
    
 import React from 'react';
-import ProfilePic from '../../Assets/profilepic.jpg';
+import Profile from '../../Assets/Profilepic.jpeg';
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <img src={ProfilePic} className="card-img-top" alt="Profile Pic" />
+      <img src={Profile} className="card-img-top" alt="Profile Picture"/>
       <p className="Font" >
       As a recent Georgia Tech Bootcamp full stack web developer graduate, I am 
       looking to  leverage an accounting and finance background to build a more 
