@@ -1,25 +1,15 @@
 import React from 'react';
+import Resume from '../utils/sjsResume.pdf';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>
-    <header>
-      Ja
+    <header className="col-12 display-1 text-center" ClassName="border-bottom-0">
+     Seamona Jaspertena Stewart
     </header>
-        <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
+        <ul className="nav nav-tabs display-6 col-12">
       <li className="nav-item">
         <a
           href="#about"
@@ -47,7 +37,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          <a href={Resume} download>
+            Resume
+          </a>
         </a>
       </li>
       <li className="nav-item">

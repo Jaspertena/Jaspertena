@@ -16,7 +16,7 @@ const handleSubmit = (event) => {
   return (
     <>
     <div>
-      <h1>Contact Page</h1>
+      <h1 style={{color:"purple"}}>Contact Page</h1>
     </div>
     <div className="row d-flex justify-content-center">
     <form className="form-group col-6">

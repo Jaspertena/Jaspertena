@@ -1,10 +1,14 @@
+
+   
 import React from 'react';
+import ProfilePic from '../../Assets/profilepic.jpg';
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <p>
+      <img src={ProfilePic} className="card-img-top" alt="Profile Pic" />
+      <p className="Font" >
       As a recent Georgia Tech Bootcamp full stack web developer graduate, I am 
       looking to  leverage an accounting and finance background to build a more 
       intuitive user experience on the web. I aim to use my newly developed 
@@ -13,7 +17,8 @@ export default function About() {
       thinking skills to add value in a team environment.  I have worked on  
       teams to build full stack websites from creations  of concepts to 
       fully deployed sites. 
-      </p>
+      </p> 
+
     </div>
   );
 }
