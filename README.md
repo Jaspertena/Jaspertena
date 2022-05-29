@@ -1,7 +1,8 @@
 ### Hi there 👋
 <!-- **Jaspertena/Jaspertena** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
-Here are some ideas to get you started:
+Hello,  I'm Seamona J. Stewart, I am at the beginning of my journey to become a Full Stack Web Developer.  I would love the oppurtunity to be the laison between the end users and all the coding and tech genius minds that prefer to work behind the scenes.  
+
 
 - 🔭 I’m currently working on becoming an expert Full Stack Web Developer, specializing in Data Analysis.
 - 🌱 I’m currently learning React and how to stay sane while raising a preteen. 
