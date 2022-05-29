@@ -20,13 +20,13 @@ const handleSubmit = (event) => {
     </div>
     <div className="row d-flex justify-content-center">
     <form className="form-group col-6">
-      <label className="text-muted">Name</label>
+      <label className="text-bold text-dark" >Name</label>
     <input type="text" className="form-control mb-3"/>
-      <label className="text-muted">Email</label>
+      <label className="text-bold text-dark">Email</label>
     <input type="text" className="form-control mb-3"/>
-      <label className="text-muted">Phone</label>
+      <label className="text-bold text-dark">Phone</label>
     <input type="text" className="form-control mb-3"/>
-      <label className="text-muted">Message</label>
+      <label className="text-bold text-dark">Message</label>
     <textarea className="form-control mb-3"/>
     <button onClick={{handleSubmit}} className="btn btn-info">Submit</button>
     </form>
