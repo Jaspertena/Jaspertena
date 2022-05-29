@@ -11,6 +11,15 @@ Here are some ideas to get you started:
 - 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/seamonajassystewart-aba25320/) ...
 - ⚡ Fun fact: I have a twin sister. Roller Coaster enthusiast. 
 
+As I end my Full Stack Developer Bootcamp, I would like to acknowledge the following people for all the support through this journey. 
+# Collaborators
+- Abdullah Al Hilfi - Tutor [Github](https://github.com/abjj1999)
+
+
+ # Acknowledements  
+ - Junghoo Yoon - Instructor [Github](https://github.com/juhuyoon)
+ - Derrick Morton - Senior Web Dev/Mentor [Linkedin](https://www.linkedin.com/in/derrickmorton/)
+
 
 
 
