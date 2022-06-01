@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactCrop from 'react-image-crop';
-import 'react-image-crop/dist/ReactCrop.css';
 import ProfilePic from "../Assets/headshot.jpeg"
 
 class ImageResize extends React.Component {
